@@ -3,7 +3,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-$background-color: #E8E779;
+$background-color: #FFE20D;
 $text-color: #0C95E8;
 $font-size: 2em;
 
@@ -100,4 +100,14 @@ main.main-text {
   font-size: $font-size;
   color: $text-color;
   text-align: center;
+
+  div.icons {
+    margin-top: 15%;
+    font-size: $font-size;
+  }
+}
+
+ul.nav {
+  color: $text-color;
+  font-size: calc($font-size - 1em)
 }
