@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "browserify-zlib": "^0.1.4",
+    "express": "^4.12.3",
     "ms": "^0.7.1"
   },
   "repository": {},
