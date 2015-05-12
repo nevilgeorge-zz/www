@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/dist'));
 app.set('port', process.env.PORT || 7000);
 
 app.get('/', function(req, res) {
-	res.sendfile('index.html', {root: __dirname + '/dist'});
+	res.sendFile('index.html', {root: __dirname + '/dist'});
 });
 
 app.listen(app.get('port'), function() {
