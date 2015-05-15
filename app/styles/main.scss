@@ -4,7 +4,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // endbower
 
 $background-color: #E8E8DE;
-$text-color: #D12B3E;
+$text-color1: #D12B3E;
 $text-color2: #1199D1;
 $font-size: 2em;
 
@@ -100,7 +100,7 @@ main.main-text {
   margin-top: 15%;
   font-family: courier;
   font-size: $font-size;
-  color: $text-color;
+  color: $text-color1;
   text-align: center;
 
   div.icons {
@@ -114,6 +114,62 @@ main.main-text {
 }
 
 ul.nav {
-  color: $text-color;
-  font-size: calc($font-size - 1em)
+  color: $text-color1;
+  font-size: calc($font-size - 1em);
+}
+
+footer.nav-footer {
+  position: absolute;
+  bottom: 0px;
+  background-color: $text-color1;
+  width: 100%;
+  height: 60px;
+
+  ul.nav-bar {
+    // background-color: green;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 20%;
+    height: 100%;
+
+    li {
+      display: inline;
+      height: 100%;
+      width: 50%;
+      float: left;
+      // border-right: 1px solid $text-color2;
+      // border-left: 1px solid $text-color2;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      a {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: courier;
+        font-size: 1.5em;
+        color: $text-color2;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+    }
+
+    li:hover {
+      background-color: $background-color;
+    }
+
+    // li:nth-child(1) {
+    //   border-left: 0;
+    // }
+
+    // li:nth-child(2) {
+    //   border-right: 0;
+    // }
+
+  }
+
 }
