@@ -3,8 +3,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-$background-color: #FFE20D;
-$text-color: #0C95E8;
+$background-color: #E8E8DE;
+$text-color: #D12B3E;
+$text-color2: #1199D1;
 $font-size: 2em;
 
 .browsehappy {
@@ -105,6 +106,10 @@ main.main-text {
   div.icons {
     margin-top: 15%;
     font-size: $font-size;
+  }
+
+  i {
+    color: $text-color2;
   }
 }
 
