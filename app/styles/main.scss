@@ -130,7 +130,8 @@ footer.nav-footer {
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
-    width: 20%;
+    // width: 20%;
+    width: 250px;
     height: 100%;
 
     li {
@@ -138,8 +139,6 @@ footer.nav-footer {
       height: 100%;
       width: 50%;
       float: left;
-      // border-right: 1px solid $text-color2;
-      // border-left: 1px solid $text-color2;
       padding-top: 10px;
       padding-bottom: 10px;
 
@@ -161,15 +160,15 @@ footer.nav-footer {
     li:hover {
       background-color: $background-color;
     }
-
-    // li:nth-child(1) {
-    //   border-left: 0;
-    // }
-
-    // li:nth-child(2) {
-    //   border-right: 0;
-    // }
-
   }
+}
 
+@media screen and (max-width: 600px) {
+  ul.nav-bar {
+    display: none;
+
+    a {
+      font-size: 60%;
+    }
+  }
 }
