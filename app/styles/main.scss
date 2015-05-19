@@ -155,11 +155,41 @@ footer.nav-footer {
         text-decoration: none;
       }
 
+      a:active {
+        text-decoration: none;
+        color: yellow;
+      }
+
     }
 
     li:hover {
       background-color: $background-color;
     }
+  }
+}
+
+main.main-projects {
+  margin-top: 10%;
+}
+
+div.project-box {
+  width: 100%;
+  height: 300px;
+  background-color: $text-color1;
+
+  img {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 90%;
+    float: left;
+  }
+
+  div.project-info {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: yellow;
+    height: 90%;
+    float: right;
   }
 }
 
