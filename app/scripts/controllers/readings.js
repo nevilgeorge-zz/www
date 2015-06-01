@@ -15,6 +15,7 @@ angular.module('wwwApp')
     	success(function(data, status, headers, config) {
     		console.log('Success!');
             $scope.readings = data;
+            console.log($scope.readings);
     	}).
     	error(function(data, status, headers, config) {
     		console.log('Error occurred');
