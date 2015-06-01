@@ -1,0 +1,6 @@
+<main class="col-md-12 main-content">
+    <div ng-repeat="reading in readings | orderBy: randomSort" class="reading-box">
+    	<h3><a href="{{ reading.resolved_url }}" target="_blank"> {{ reading.resolved_title }} </a></h3>
+    	<p> {{ reading.excerpt }} </p>
+    </div>
+</main>
