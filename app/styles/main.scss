@@ -18,6 +18,7 @@ $font-size: 2em;
 body {
   padding: 0;
   background-color: $background-color;
+  font-family: courier;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -119,7 +120,7 @@ ul.nav {
 }
 
 footer.nav-footer {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   background-color: $text-color1;
   width: 100%;
@@ -155,6 +156,11 @@ footer.nav-footer {
         text-decoration: none;
       }
 
+      a:active {
+        text-decoration: none;
+        color: yellow;
+      }
+
     }
 
     li:hover {
@@ -162,6 +168,65 @@ footer.nav-footer {
     }
   }
 }
+
+main.main-content {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+div.reading-box {
+  width: 100%;
+  height: 20%;
+  background-color: $background-color;
+  color: $text-color1;
+  border: 3px solid $text-color2;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  h3 {
+    margin-top: 0;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    a:active {
+      color: yellow;
+    }
+  }
+
+  p {
+    font-size: 130%;
+    font-style: italic;
+  }
+
+}
+
+div.project-box {
+  width: 100%;
+  height: 300px;
+  background-color: $text-color1;
+
+  img {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 90%;
+    float: left;
+  }
+
+  div.project-info {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: yellow;
+    height: 90%;
+    float: right;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   ul.nav-bar {
