@@ -18,7 +18,7 @@ $font-size: 2em;
 body {
   padding: 0;
   background-color: $background-color;
-  font-family: courier;
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -99,10 +99,22 @@ body {
 
 main.main-text {
   margin-top: 15%;
-  font-family: courier;
+  font-family: 'Ropa Sans', courier;
   font-size: $font-size;
   color: $text-color1;
   text-align: center;
+ 
+  h1 {
+    font-size: 80px;
+  } 
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
 
   div.icons {
     margin-top: 15%;
@@ -127,18 +139,17 @@ footer.nav-footer {
   height: 60px;
 
   ul.nav-bar {
-    // background-color: green;
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
-    // width: 20%;
-    width: 250px;
+    width: 20%;
+    width: 400px;
     height: 100%;
 
     li {
       display: inline;
       height: 100%;
-      width: 50%;
+      width: 33%;
       float: left;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -147,8 +158,8 @@ footer.nav-footer {
         display: block;
         margin: 0 auto;
         text-align: center;
-        font-family: courier;
-        font-size: 1.5em;
+        font-family: 'Ropa Sans', courier;
+        font-size: 25px;
         color: $text-color2;
       }
 
