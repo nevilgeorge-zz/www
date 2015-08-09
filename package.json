@@ -3,17 +3,17 @@
   "version": "0.0.0",
   "dependencies": {
     "browserify-zlib": "^0.1.4",
-    "express": "^4.12.3",
-    "ms": "^0.7.1",
     "destroy": "^1.0.3",
     "etag": "^1.6.0",
     "express": "^4.12.4",
+    "hapi": "^8.8.1",
     "ms": "^0.7.1",
     "node-getpocket": "^1.0.0",
     "on-finished": "^2.2.1",
     "pocket-api": "^0.2.3",
     "range-parser": "^1.0.2",
-    "request": "^2.55.0"
+    "request": "^2.55.0",
+    "underscore": "^1.8.3"
   },
   "repository": {},
   "devDependencies": {
