@@ -5,13 +5,12 @@ var Hapi = require('hapi'),
     path = require('path'),
     _ = require('underscore');
 
+var secrets = require('./config/secrets');
+
 var server = new Hapi.Server();
 server.connection({
 	port: 8080,
 });
-
-var consumerKey = '41481-0c222dc341ba80ec8580ba1e',
-    accessToken = 'd576503d-74a4-d195-0fd1-87e4c0';
 
 server.route({
 	method: 'GET',
@@ -40,7 +39,7 @@ server.route({
 		cors: true
 	},
 	handler: function(request, reply) {
-		pocket.getArticles(consumerKey, accessToken, function(err, data) {
+		pocket.getArticles(secrets.pocketConsumerKey, secrets.pocketAccessToken, function(err, data) {
 			if (err)
 			    return reply({});
 			else {
@@ -63,7 +62,7 @@ server.route({
 		cors: true
 	},
 	handler: function(request, reply) {
-		reply.file('./resume.pdf');	
+		reply.file('./resume.pdf');
 	}
 });
 
