@@ -4,4 +4,10 @@
 		<h2> experience </h2>
 	</div>
 
+  <div ng-repeat="experience in experiences" class="experience-box">
+    <h2> {{ experience.company }} <span> ({{ experience.duration }}) </span></h2>
+    <h3> {{ experience.position }} </h3>
+    <p> {{ experience.description }} </p>
+  </div>
+
 </main>

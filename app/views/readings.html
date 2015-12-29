@@ -1,12 +1,12 @@
 <main class="col-md-12 main-content">
 
 	<div class="reading-title">
-		<h3> here are some articles I've enjoyed reading recently </h3>
+		<h2> here are some articles I've enjoyed reading recently </h2>
 	</div>
 
-    <div ng-repeat="reading in readings | orderBy: randomSort" class="reading-box">
-    	<h3><a href="{{ reading.resolved_url }}" target="_blank"> {{ reading.resolved_title }} </a></h3>
-    	<p> {{ reading.excerpt }} </p>
-    	<p class="link"> {{ reading.resolved_url }} </p>
-    </div>
+  <div ng-repeat="reading in readings | orderBy: randomSort" class="reading-box">
+  	<h3><a href="{{ reading.resolved_url }}" target="_blank"> {{ reading.resolved_title }} </a></h3>
+  	<p> {{ reading.excerpt }} </p>
+  	<p class="link"> {{ reading.resolved_url }} </p>
+  </div>
 </main>
