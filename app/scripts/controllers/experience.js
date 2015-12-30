@@ -22,7 +22,7 @@ angular.module('wwwApp')
       {
         company: 'eecs dept, northwestern university',
         position: 'undergraduate teaching assistant',
-        duration: 'sept \'14 - current',
+        duration: 'sept \'14 - present',
         description: 'Courses: Intro. to Computer Systems, Data Structures & Data Management, Intro. to Database Systems. ' +
           'Instructed discussion sections for over 40 students, held office hours, graded assignments/exams.'
       },
