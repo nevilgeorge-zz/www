@@ -15,8 +15,7 @@ angular.module('wwwApp')
         position: 'software engineering intern',
         duration: 'jun \'15 - sept \'15',
         description: 'Worked on Supply Engineering to increase the number of driver signups through referrals. ' +
-          'Built a client-side tool from scratch using React that allows users to control and customize driver referral campaigns. ' +
-          'Currently used by all city operations teams worldwide. ' +
+          'Built a client-side tool in React that allows ops to control and customize driver referral campaigns. ' +
           'Wrote Python for the referrals backend service, and maintained 100% test coverage for the entire application.'
       },
       {
