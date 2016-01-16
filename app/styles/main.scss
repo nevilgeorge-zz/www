@@ -153,7 +153,7 @@ footer.nav-footer {
     li {
       display: inline;
       height: 100%;
-      width: 25%;
+      width: 33.3%;
       float: left;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -205,7 +205,6 @@ div.reading-box {
   height: 20%;
   background-color: $background-color;
   color: $text-color1;
-  border: 3px solid $text-color2;
   margin-bottom: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -231,6 +230,7 @@ div.reading-box {
   }
 
   p.link {
+    color: $text-color3;
     margin-top: 7px;
     font-size: 70%;
     text-align: right;
